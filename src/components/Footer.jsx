@@ -1,8 +1,5 @@
 function Footer() {
-  return <div></div>;
+  return <di>© 2024 Your Company</di>;
 }
 
 export default Footer;
-
-
-// © 2024 Your Company
