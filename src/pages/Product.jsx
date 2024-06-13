@@ -65,12 +65,6 @@ function Product() {
           </div>
         </div>
       )}
-
-      <div className="mt-3">
-        <button className="btn btn-secondary">-</button>
-        <span>0</span>
-        <button className="btn btn-secondary">+</button>
-      </div>
     </div>
   );
 }
