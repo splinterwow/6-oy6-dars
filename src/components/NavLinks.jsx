@@ -21,13 +21,11 @@ const links = [
 function NavLinks() {
   return (
     <>
-      {links.map((link) => {
-        return (
-          <li key={link.id}>
-            <Link to={link.link}>{link.text}</Link>
-          </li>
-        );
-      })}
+      {links.map((link) => (
+        <li key={link.id}>
+          <Link to={link.link}>{link.text}</Link>
+        </li>
+      ))}
     </>
   );
 }
